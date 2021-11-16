@@ -1,0 +1,18 @@
+{% extends 'layout/base.html' %}
+{% block content %}
+<div class="container">
+    <br>
+    <h4 class="text-center">Create a post</h4>
+    {% for message in messages %}
+    <div class="alert alert-info" role="alert">
+        {{message}}
+    </div>
+    {% endfor %}
+    <form method="post" novalidate enctype="multipart/form-data">
+        {% csrf_token %}
+        {% include 'layout/form.html' %}
+        <button type="submit" class="btn btn-outline-secondary btn-block">Post</button>
+        <br><br>
+    </form>
+</div>
+{% endblock %}

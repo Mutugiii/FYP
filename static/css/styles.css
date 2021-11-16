@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+.bg-light {
+  box-shadow: -2px -4px 20px 0px #545454;
+}
+
+.heroImage{
+  background-image: url("https://media.istockphoto.com/vectors/isometric-delivery-service-courier-on-the-scooter-fast-delivery-of-vector-id1055678018?k=20&m=1055678018&s=170667a&w=0&h=wvzT7nAC-K9ieuR0kqTrlDyWeyo5n-huCltsrfDDapQ=");
+  /* width: 100%; */
+  /* height: 625px; */
+  /* background-position: center;
+  background-size: cover; */
+}
+.heroBg{
+  height: 625px;
+  background-color: rgba(0, 0, 0, 0.329);
+  background-size: cover;
+  width: 100%;
+}
+.Hero{
+  padding-top: 200px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph{
+  padding-top: 30px;
+}
+.butn{
+  height: 40px;
+  width: 150px;
+  color: rgb(85, 85, 85);
+  background-color: white;
+  margin: 0 auto;
+  padding-top: 7px;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.butn a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.secondSec{
+  padding-bottom: 50px;
+}
+/* second section from here */
+.secondSecMain{
+  height: auto;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: rgb(85, 85, 85);
+}
+.secondSecMain p{
+  line-height: 2;
+  font-size: 14px;
+  padding: 20px 0px 30px 0px;
+}
+.secondSecBox{
+  height: auto;
+  width: 100%;
+  padding: 40px 10px 40px 10px;
+  background-color: #F4F7F8;
+  text-align: center;
+}
+.LrnBtn{
+  height: 40px;
+  width: 150px;
+  color: rgb(85, 85, 85);
+  background-color: white;
+  font-weight: bold;
+  border: 2px solid rgb(85, 85, 85);
+  margin: 0 auto;
+  padding-top: 5px;
+  font-size: 18px;
+  margin-top: 30px;
+  transition: 500ms ease;
+}
+.LrnBtn:hover{
+  background-color: rgb(85, 85, 85);
+  color: white;
+}
+
+
+/* second section from here */
+.thirdSec{
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #F4F7F8;
+}
+.thirdSec h4{
+  padding: 40px 0px 40px 0px;
+}
+
+.thirdSecBox{
+  height: auto;
+  width: 100%;
+  padding: 40px 10px 40px 10px;
+  background-color: #fff;
+  box-shadow: -1px 1px 20px -11px black;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+
+/* fourth section from here */
+.aboutSec{
+  padding: 80px 0px 80px 0px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.aboutSec h4{
+  padding: 40px 0px 40px 0px;
+}
+.aboutSecBox{
+  padding-bottom: 50px;
+}
+.aboutSecP{
+  font-weight: bold;
+}
+
+/* faq section hre */
+
+.faqSec{
+  padding-bottom: 50px;
+  text-align: center;
+  background-image: url(img/un_medicine.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+.faqSecBg{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.281);
+  height: 700px;
+}
+#accordion{
+  margin-top: 30px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+
+/* footer section here */
+
+
+.footer{
+  height: auto;
+  color: white;
+  width: 100%;
+  padding: 60px 0px 60px 0px;
+  background-color: black;
+}
+
+.footer h4{
+  font-weight: bold;
+}
+
+.footer p{
+  font-size: 12px;
+  line-height: 2;
+}
+.footer span{
+  font-size: 12px;
+}
+
+.halfPage{
+  background-image: url("http://edeminence.com/wp-content/uploads/2015/11/03-logistics02-2.png");
+  /* height: 100%; */
+  bottom: 0px;
+  background-position: center;
+  background-size: cover;
+}

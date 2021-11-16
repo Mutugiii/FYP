@@ -1,0 +1,22 @@
+{% extends 'layout/base.html' %}
+{% block content %}
+<div class="row">
+    <div class="col-md-5 halfPage"></div>
+    <div class="col-md-7" style="margin-top: 100px;">
+        <div class="container">
+            <h4 class="text-center">Signup</h4>
+            {% for message in messages %}
+            <div class="alert alert-danger" role="alert">
+                {{message}}
+            </div>
+            {% endfor %}
+            <form method="post" novalidate enctype="multipart/form-data">
+                {% csrf_token %}
+                {% include 'layout/form.html' %}
+                <button type="submit" style="width: 50%;" class="btn btn-outline-secondary btn-block">Signup</button>
+                <br><br>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
